@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\salva\OneDrive\Escritorio\Patrones de diseño\.metadata\.plugins\org.eclipse.jdt.core
+1767210122.index
+994858114.index
+2272086612.index
+1865797976.index

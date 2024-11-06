@@ -1,0 +1,42 @@
+package gonzalez.salvador.tdd;
+
+public class Rectangulo {
+	// atributos publicos
+	public float base;
+	public float altura;
+	
+	// crearemos el constructor 
+	public Rectangulo(float base, float altura) {
+		this.setBase(base);
+		this.setAltura(altura);
+	}
+	
+	// getters & setters de cada uno de los atributos
+	public float getBase() {
+		return base;
+	}
+	public void setBase(float base) {
+		this.base = base;
+	}
+	
+	public float getAltura() {
+		return altura;
+	}
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+	
+	public String toString() {
+		return "Base: " + this.getBase() + " Altura: " + this.getAltura();
+	}
+	
+	public float area() {
+		return this.getBase() * this.getAltura();
+	}
+	
+	//public void implimir() {
+		//System.out.println(this);
+	//}
+	
+	
+}

@@ -1,0 +1,43 @@
+package gonzalez.salvador.tdd;
+
+public class Rectangulo {
+	// creamos 2 atributos para nuestro rectangulo
+	public float base;
+	public float altura;
+	
+	// creamos un constructora para utilizarlo en la clase princilap al momento de solicitar la altura y base del rectangulo
+	public Rectangulo(float base, float altura) {
+		this.setAltura(altura);
+		this.setBase(base);
+	}
+	
+	// crearemos los getters y setters de cada uno de los atributos
+	public float getBase() {
+		return base;
+	}
+	public void setBase(float base) {
+		this.base = base;
+	}
+	
+	public float getAltura() {
+		return altura;
+	}
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+	
+	// creamos un metodo para obtener el altura
+		public String area() {
+			return "El área es: " + this.getAltura() * getBase();
+		}
+		
+	public String toString() {
+		return "Triangulo con base: " + this.getBase() + " y altura: " + this.getAltura();
+	}
+	
+	
+	public void imprimir() {
+		System.out.println(this);
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.gonzalez.sf;
+
+// Clase principal de nuestro programa
+public class Main {
+	public static void main(String[] args) {
+		
+		
+	}
+}

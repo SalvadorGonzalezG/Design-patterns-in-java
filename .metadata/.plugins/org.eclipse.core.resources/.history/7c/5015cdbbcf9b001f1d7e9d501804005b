@@ -1,0 +1,10 @@
+package com.salvador.sf;
+
+public class Pizzeria {
+	
+	// metodo publico que retornara una pizza
+	public Pizza pizzaChica() {
+		return new Pizza(6);
+	}
+
+}

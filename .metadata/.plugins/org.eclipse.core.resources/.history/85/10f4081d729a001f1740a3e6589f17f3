@@ -1,0 +1,5 @@
+package gonzalez.salvador.tdd;
+
+public interface IFigura {
+
+}

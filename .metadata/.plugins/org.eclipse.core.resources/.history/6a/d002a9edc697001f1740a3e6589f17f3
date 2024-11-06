@@ -1,0 +1,12 @@
+package gonzalez.salvador.pdd;
+
+public class Main {
+	public static void main(String[ ] args) {
+		Jaguar jaguar1 = new Jaguar();
+		
+		jaguar1.setEdad(12);
+		jaguar1.setPeso(18.5f);
+		
+		System.out.println(jaguar1);
+	}
+}

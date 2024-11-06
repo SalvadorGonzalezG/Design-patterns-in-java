@@ -1,0 +1,14 @@
+package com.salvador.sf;
+
+public class Main {
+	// Clase principal 
+	public static void main(String[] args) {
+		
+		// Instanciamos nuetsro objeto de la clase pizza
+		Pizza pizza = new Pizza(8);	// sin implementar simple factory
+		System.out.println(pizza);
+		
+		Pizzeria pizzaM = new Pizzeria();
+		pizzaM.pizzaChica();
+	}
+}

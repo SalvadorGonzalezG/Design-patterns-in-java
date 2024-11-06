@@ -1,0 +1,11 @@
+package gonzalez.salvador.solid;
+
+// Clase principal de nuestro programa
+public class Main {
+	public static void main(String[] args) {
+		
+		// instanciamos nuestro objeto Rectangulo
+		Rectangulo rec = new Rectangulo(10f, 5f);
+		rec.area();
+	}
+}

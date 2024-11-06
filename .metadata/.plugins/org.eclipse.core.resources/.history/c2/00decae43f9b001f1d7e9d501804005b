@@ -1,0 +1,12 @@
+package gonzalez.salvador.solid;
+
+public class Presentacion {
+
+	public void area(Rectangulo rectangulo) {
+		System.out.println(rectangulo.area());
+	}
+	
+	public void area(Triangulo triangulo) {
+		System.out.println(triangulo.area());
+	}
+}

@@ -1,0 +1,12 @@
+package com.salvador.sf;
+
+public class Main {
+	// Clase principal 
+	public static void main(String[] args) {
+		
+		//instanciamos nuetsro objeto de la clase pizza
+		Pizza pizza = new Pizza(8);
+		System.out.println(pizza.toString());
+		
+	}
+}

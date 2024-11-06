@@ -1,0 +1,20 @@
+package gonzalez.salvador.tdd;
+
+// Clase principal del programa
+public class Main {
+	public static void main(String[] args) {
+		
+		Rectangulo rectangulo1 = new Rectangulo(10f, 20f);
+		Presentacion presentacion = new Presentacion();
+		
+		// instanciamos el objeto de la clase triangulo
+		Triangulo triangulo1 = new Triangulo(10f, 10f);
+		
+		System.out.println(triangulo1.area());
+		
+		System.out.println( rectangulo1.area());
+		
+		presentacion.imprimir(rectangulo1);
+	}
+
+}

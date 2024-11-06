@@ -1,0 +1,12 @@
+package gonzalez.salvador.tdd;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		// realizamos la instancia del objeto rectangulo
+		Rectangulo rec = new Rectangulo(20f,30f);
+		System.out.println(rec.toString());
+	
+		
+	}
+}

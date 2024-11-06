@@ -1,0 +1,38 @@
+package gonzalez.salvador.solid;
+
+public class Rectangulo {
+
+	// creamos 2 atributos
+	public float altura;
+	public float base;
+	
+	// Creamos el constructor de la clase
+	public Rectangulo(float altura, float base) {
+		this.setAltura(altura);
+		this.setBase(base);
+	}
+	
+	// creamos nuestros getters & setters de cada atributo
+	public float getAltura() {
+		return altura;
+	}
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+	
+	// Getters & setts del atributo base
+	public float getBase() {
+		return base;
+	}
+	public void setBase(float base) {
+		this.base = base;
+	}
+	
+	// Metodo para obtener el área del rectangulo
+	public float area() {
+		return this.getAltura() * this.getBase();
+	}
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.gonzalez.sf;
+
+// Clase principal de nuestro programa
+public class Main {
+	public static void main(String[] args) {
+		// instanciamos el objeto de la clase Pizza
+		Pizza pizzaPeperoni = new Pizza(10);
+		System.out.println(pizzaPeperoni);
+		
+	}
+}
