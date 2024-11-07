@@ -10,6 +10,8 @@ public class Main {
 		SamsungStore samsung = new SamsungStore();
 		HuaweiStore huawei = new HuaweiStore();
 		OppoStore oppo = new OppoStore();
+		HisenseStore hisense = new HisenseStore();
+		
 		// Creamos los objetos para la tienda de Appe 
 		Computadora macbook = apple.crearComputadora();
 		Tablet ipad = apple.crearTablet();
@@ -23,6 +25,9 @@ public class Main {
 		
 		Computadora oppobook = oppo.crearComputadora();
 		Tablet oppotab = oppo.crearTablet();
+		
+		Computadora hisenseSystem = hisense.crearComputadora();
+		Tablet hisenseTab = hisense.crearTablet();
 			
 		
 	}
