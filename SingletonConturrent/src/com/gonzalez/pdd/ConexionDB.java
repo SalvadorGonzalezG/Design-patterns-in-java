@@ -10,7 +10,7 @@ public class ConexionDB {
 		
 	}
 	
-	// creamos un metodo static que retorne el objeto de la misma clase de forma sincronizada por si tenemos varios hilos la concurrencia siempre sea la misma
+	// creamos un metodo static que retorne el objeto de la misma clase de forma sincronizada por si tenemos varios hilos garantizemos que el objeto siempre sea el mismo aprezar de la concurrencia
 	public synchronized static ConexionDB obtenerConexion() {
 		// Condicion que permitira saber si el objeto a sio instanciado 
 		if(conexion == null) {
