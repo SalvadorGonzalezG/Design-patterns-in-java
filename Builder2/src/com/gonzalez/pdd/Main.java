@@ -27,7 +27,7 @@ public class Main {
 				.build();
 		
 		// imprimimos este objeto
-		System.out.println(user2);
+		System.out.println(user2); // efectivamente nos lanza la excepcion.
 	}
 
 }
