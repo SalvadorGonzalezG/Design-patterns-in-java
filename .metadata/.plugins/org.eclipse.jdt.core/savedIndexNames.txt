@@ -4,6 +4,7 @@ INDEX VERSION 1.134+C:\Users\salva\OneDrive\Escritorio\Patrones de diseño\.metad
 1091347983.index
 1865797976.index
 2272086612.index
+749124478.index
 4010181056.index
 2352958451.index
 4214782821.index
