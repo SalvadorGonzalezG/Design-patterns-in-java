@@ -1,7 +1,0 @@
-package gonzalez.salvador.solid;
-
-public interface IFigura {
-	
-	public float area();
-	
-}

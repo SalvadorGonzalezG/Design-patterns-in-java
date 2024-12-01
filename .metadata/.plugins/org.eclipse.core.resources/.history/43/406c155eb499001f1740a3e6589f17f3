@@ -1,9 +1,0 @@
-package gonzalez.salvador.tdd;
-
-public class Main {
-	public static void main(String[] args) {
-		Rectangulo rec = new Rectangulo(10f, 11f);
-		
-		System.out.println(rec.area(10f, 11f));
-	}
-}

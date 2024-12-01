@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.gonzalez.pdd.Usuario"/>
+    <fullyQualifiedTypeName name="com.salvador.pdd.Usuario"/>
+    <fullyQualifiedTypeName name="com.sgg.pdd.Enemigo"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+</qualifiedTypeNameHistroy>

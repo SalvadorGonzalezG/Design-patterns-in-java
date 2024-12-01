@@ -1,7 +1,0 @@
-package gonzalez.salvador.tdd;
-
-public class Presentacion {
-	public void imprimir(Rectangulo rectangulo) {
-		System.out.println(this);
-	}
-}

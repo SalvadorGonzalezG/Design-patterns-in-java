@@ -1,8 +1,0 @@
-package gonzalez.salvador.tdd;
-
-public class Presentacion {
-	// colocamos el metodo imprimit el cual recibira un rectangulo
-	public void imprimir(Rectangulo rectangulo) {
-		System.out.println(rectangulo);
-	}
-}

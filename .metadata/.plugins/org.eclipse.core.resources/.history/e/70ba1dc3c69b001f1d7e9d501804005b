@@ -1,9 +1,0 @@
-package com.salvador.solid;
-
-// Clase principal del programa.
-public class Main {
-	public static void main(String[] args) {
-		
-	}
-
-}

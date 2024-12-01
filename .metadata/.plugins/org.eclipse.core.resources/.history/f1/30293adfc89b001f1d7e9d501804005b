@@ -1,8 +1,0 @@
-package com.salvador.solid;
-
-public class Presentacion {
-	
-	public void area(Rectangulo rectangulo) {
-		System.out.println(rectangulo);
-	}
-}

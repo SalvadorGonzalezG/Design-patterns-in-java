@@ -1,5 +1,0 @@
-package com.salvador.solid;
-
-public interface IFigura {
-
-}

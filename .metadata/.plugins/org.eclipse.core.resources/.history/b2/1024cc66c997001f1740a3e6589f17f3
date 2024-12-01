@@ -1,9 +1,0 @@
-package gonzalez.salvador.pdd;
-
-public interface IFelino {
-	// comportamiento abstracto rugir maullar cazar
-	public abstract void rugir();
-	public abstract void maullar();
-	public abstract void cazar();
-	
-}

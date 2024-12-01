@@ -1,8 +1,0 @@
-package gonzalez.salvador.tdd;
-
-public interface IFigura {
-	
-	// metodo área
-	float area();
-
-}
